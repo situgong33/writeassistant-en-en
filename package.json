@@ -81,7 +81,7 @@
     "type": "git",
     "url": "git+https://github.com/situgong33/writeassistant-en-en.git"
   },
-  "version": "0.3.0",
+  "version": "0.3.1",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [
