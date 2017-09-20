@@ -31,12 +31,14 @@ module.exports =
             @isWork = false
             @properties = JSON.parse("{}")
             @keys = Object.keys(@properties)
+            atom.notifications.addSuccess "WriteAssistant-en-en Stoped Success."
           else 
             console.log ("reLoad package: writeassistant-en-en")
             @isWork = true
             @properties = JSON.parse(content)
             @keys = Object.keys(@properties)
             console.log ("load success!")
+            atom.notifications.addSuccess "WriteAssistant-en-en Started Sucecss."
           
           
   toggle: ->
